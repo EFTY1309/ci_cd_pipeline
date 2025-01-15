@@ -2,7 +2,7 @@ const request = require('supertest');
 const app = require('../index'); 
 const { add } = require('../index'); 
 
-it('should return Hello World message and app version', async () => {
+it('should return Hello World message and ', async () => {
   const res = await request(app).get('/');
   expect(res.statusCode).toBe(200);
   expect(res.body).toEqual({ 
