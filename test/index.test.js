@@ -14,7 +14,7 @@ it('should return Hello World message and app version', async () => {
 it('should return the correct sum of two numbers', async () => {
   const res = await request(app).get('/add/5/10');
   expect(res.statusCode).toBe(200);
-  expect(res.body).toEqual({ sum: 16 });
+  expect(res.body).toEqual({ sum: 15 });
 });
 
 it('should return "Invalid Input" for non-numeric parameters', async () => {
