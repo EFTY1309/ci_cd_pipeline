@@ -1,5 +1,5 @@
 
-# CI-CD Pipeline with Vercel and Node.js
+# CI-CD Pipeline with Vercel  Node.js
 
 This project demonstrates  to set up a simple **Node.js** application with **Express**, build and test it using **GitHub Actions**, and deploy it to **Vercel**. The application includes a simple API with routes to display a "Hello World" message and perform addition.
 
@@ -56,7 +56,7 @@ This project demonstrates  to set up a simple **Node.js** application with **Exp
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/thabir303/CI-CD-Pipeline.git
+   git clone https://github.com/EFTY1309/ci-cd-Pipeline.git
    cd CI-CD-Pipeline
    ```
 
